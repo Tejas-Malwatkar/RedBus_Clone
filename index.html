@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>RedBus</title>
+</head>
+<body>
+    <section class="rh-main">
+        <header id="main_header_new" class="fixedHeader">
+            <div class="rb_header">
+                <picture>
+
+                    <img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo"
+                        title="redBus">
+                </picture>
+                <span class="vertical_seperator"></span>
+                <ul class="rb_verticals">
+                    <a href="">
+                        <li class="rb_vertical  active ">
+                            <img class="img_rb_vertical" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                alt="Online Bus Tickets Booking" title="Online Bus Tickets Booking">
+                            <span class="name_rb_vertical">Bus Tickets</span>
+                        </li>
+                    </a>
+                    <a href="https://www.redbus.in/railways">
+                        <li class="rb_vertical ">
+                            <div class="img_rb_vertical_wrap">
+                                <div class="img_new_wrap">
+                                    <img class="img_rb_vertical"
+                                        src="https://s3.rdbuz.com/web/images/layout/rail_vertical.svg"
+                                        alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
+                                    <span class="img_tag">₹80 off</span>
+                                </div>
+                            </div>
+                            <span class="name_rb_vertical">Train Tickets</span>
+                        </li>
+                    </a>
+                </ul>
+                <ul class="rb_secondary_items">
+                    <li class="rb_secondary_item">
+                        <div class="rb_main_secondary_item  link">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span class="name_rb_secondary_item">Help</span>
+                        </div>
+                    </li>
+                    <li class="rb_secondary_item">
+                        <div class="rb_main_secondary_item  link">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="name_rb_secondary_item">Account</span>
+                            <i class="fa-solid fa-angle-down icon_secondary_item_more"></i>
+
+                        </div>
+                        <div class="dropdown_wrap">
+                            <ul class="header_dropdown_menu">
+                                <li class="header_dropdown_item">
+                                    <span class="header_dropdown_item_name">Cancel Ticket</span>
+                                </li>
+                                <li class="header_dropdown_item">
+                                    <span class="header_dropdown_item_name">Change Travel Date</span>
+                                </li>
+                                <li class="header_dropdown_item">
+                                    <span class="header_dropdown_item_name">Show My Ticket</span>
+                                </li>
+                                <li class="header_dropdown_item">
+                                    <span class="header_dropdown_item_name">Email/SMS</span>
+                                </li>
+                                <span class="horizontal_seperator"></span>
+                                <li class="header_dropdown_item">
+                                    <span class="header_dropdown_item_name">Login/ Sign Up</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="home">
+            <div class="topSection topSectionMarginTop">
+                <div>
+                    <picture>
+
+                        <img class="heroImgStyle" src="https://s3.rdbuz.com/images/webplatform/india/WebHomeBanner1.png"
+                            alt="image" title="image" data-retry="0">
+                    </picture>
+
+                </div>
+                <h1 class="heading">India's No. 1 Online Bus Ticket Booking Site</h1>
+                <form action="">
+                    <div id="autoSuggestContainer">
+                        <div class="contains">
+                            <div>
+                                <div class="con-1">
+                                    <div class="con-s1-1">
+                                        <div class="con-s1-2">
+
+                                            <i class="fa-sharp fa-solid fa-bus"></i>
+                                            <div class="from c-from-to">
+                                                <div class="sub-from">
+                                                    <input id="src" type="text" autocomplete="off" value=""
+                                                        class="from-to-input from">
+                                                    <label for="src" class="from-to-label">From</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="side-arrows">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                            </div>
+                            <div class="con-2">
+                                <div class="con-s2-1">
+                                    <div class="con-s2-2 ">
+                                        <i class="fa-sharp fa-solid fa-bus"></i>
+                                        <div class="to c-from-to">
+                                            <div class="sub-to">
+                                                <input tabindex="-1" id="dest" type="text" autocomplete="off" value=""
+                                                    class="from-to-input to">
+                                                <label for="dest" class="from-to-label">To</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="con-3">
+                                <div class="labelCalendarContainer">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <div class="date">
+                                        <span class="dateText">Date</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="search_button" type="submit">SEARCH BUSES</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="Offers_Section">
+                <div class="Offers_Container">
+                    <div class="Offers_section_Heading">
+                        <div class="Offers_section_Heading_Text">TRENDING OFFERS</div>
+                        <a href="https://www.redbus.in/info/OfferTerms" target="_blank" class="ViewAllText">View All</a>
+                    </div>
+                    <div class="WebCarousel_CarouselWrapper">
+                        <div class="WebCarousel__CarouselContainer">
+                            <!-- <span class="WebCarousel__LeftArrow">
+                                <span class="WebCarousel__ArrowButton">
+                                    <i class="fa-regular fa-less-than"></i>
+                                </span>
+                            </span> -->
+                            <div class="Offer_Card Offer-1">
+                                <div class="Offer_Left">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img class="offer-img" loading="lazy"
+                                            src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png"
+                                            alt="image" title="image" data-retry="0">
+                                    </picture>
+
+                                </div>
+                                <div class="Offer-right">
+                                    <div class="bus">BUS</div>
+                                    <div class="Offer_Title">Save up to Rs 250 on bus tickets</div>
+                                    <div class="Offer_Validity">Valid till 01 Jul</div>
+                                    <div class="Offer_Code">
+                                        <div class="code">FIRST</div>
+                                        <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="copy"
+                                            class="OfferCard__OfferCopyIcon-sc-1f27jzb-12 kcXuio">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="Offer_Card Offer-1">
+                                <div class="Offer_Left">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img class="offer-img" loading="lazy"
+                                            src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png"
+                                            alt="image" title="image" data-retry="0">
+                                    </picture>
+
+                                </div>
+                                <div class="Offer-right">
+                                    <div class="bus">BUS</div>
+                                    <div class="Offer_Title">Save up to Rs 250 on bus tickets</div>
+                                    <div class="Offer_Validity">Valid till 01 Jul</div>
+                                    <div class="Offer_Code">
+                                        <div class="code">FIRST</div>
+                                        <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="copy"
+                                            class="OfferCard__OfferCopyIcon-sc-1f27jzb-12 kcXuio">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="Offer_Card Offer-1">
+                                <div class="Offer_Left">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img class="offer-img" loading="lazy"
+                                            src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png"
+                                            alt="image" title="image" data-retry="0">
+                                    </picture>
+
+                                </div>
+                                <div class="Offer-right">
+                                    <div class="bus">BUS</div>
+                                    <div class="Offer_Title">Save up to Rs 250 on bus tickets</div>
+                                    <div class="Offer_Validity">Valid till 01 Jul</div>
+                                    <div class="Offer_Code">
+                                        <div class="code">FIRST</div>
+                                        <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="copy"
+                                            class="OfferCard__OfferCopyIcon-sc-1f27jzb-12 kcXuio">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="Offer_Card Offer-1">
+                                <div class="Offer_Left">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img class="offer-img" loading="lazy"
+                                            src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png"
+                                            alt="image" title="image" data-retry="0">
+                                    </picture>
+
+                                </div>
+                                <div class="Offer-right">
+                                    <div class="bus">BUS</div>
+                                    <div class="Offer_Title">Save up to Rs 250 on bus tickets</div>
+                                    <div class="Offer_Validity">Valid till 01 Jul</div>
+                                    <div class="Offer_Code">
+                                        <div class="code">FIRST</div>
+                                        <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="copy"
+                                            class="OfferCard__OfferCopyIcon-sc-1f27jzb-12 kcXuio">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="Offer_Card Offer-1">
+
+                                <div class="Offer_Left">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img class="offer-img" loading="lazy"
+                                            src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png"
+                                            alt="image" title="image" data-retry="0">
+                                    </picture>
+
+                                </div>
+                                <div class="Offer-right">
+                                    <div class="bus">BUS</div>
+                                    <div class="Offer_Title">Save up to Rs 250 on bus tickets</div>
+                                    <div class="Offer_Validity">Valid till 01 Jul</div>
+                                    <div class="Offer_Code">
+                                        <div class="code">FIRST</div>
+                                        <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="copy"
+                                            class="OfferCard__OfferCopyIcon-sc-1f27jzb-12 kcXuio">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- <span class="WebCarousel__RightArrow">
+                                <span class="WebCarousel__ArrowButton">
+                                    <i class="fa-solid fa-greater-than"></i>
+                                </span>
+                            </span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rtcSection">
+                <div class="rtcHeadViewAll">
+                    <div class="loaderHeading">Government Buses</div>
+                    <div>
+                        <a href="https://www.redbus.in/online-booking/rtc-directory" target="_blank"
+                            class="ViewAllText">View All</a>
+                    </div>
+                </div>
+                <div class="rtcContent">
+                    <div id="Carousel">
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="rtcBack">
+                            <div class="rtcCards">
+                                <div class="rtcInfoMain">
+                                    <div>
+                                        <img src="https://s3.rdbuz.com/web/images/homeV2/15499.png" class="rtcLogo"
+                                            alt="rtcLogo" data-retry="0" loading="lazy">
+                                    </div>
+                                    <div class="rtcInfo">
+                                        <div class="rtcNameMain">
+                                            <div class="rtcName">RSRTC</div>
+                                            <div class="rating-sec">
+                                                <div class="rating">
+                                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                                    <span class="">3.71</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="RTC_name">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+
+
+                                    </div>
+                                </div>
+                                <div class="serviceCnt">
+                                    <div class="service">
+                                        6000services including Deluxe, Ordinary and more
+                                    </div>
+                                </div>
+                                <div class="rtcTrustMaker">
+                                    <picture>
+
+                                        <img class="rdcRBlogo" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg"
+                                            alt="redBus" title="image" data-retry="0">
+                                    </picture>
+                                    Official booking partner of RSRTC
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="rtcOfferCarousel">
+                                    <div class="inner">
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Use code FIRST to save upto ₹250 (only for first
+                                                    time users)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">30% concession for female passengers</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">24*7 customer service (Call or chat)</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">Get instant refund with UPI payments</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="offerText">
+                                                <div class="offerCode">redBus is the most trusted place to book RSRTC
+                                                    tickets online</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partialListContainer">
+                <div class="partialList">
+                    <div class="AboutUs__AboutUsContainer">
+                        <div class="AboutUs__AboutUsLeftSection">
+                            <div class="AboutUs__AboutUsLeftTopSection">
+                                <h2 class="AboutUs__Heading">
+                                    NOW,
+                                    <b>GET MORE THAN JUST BUS</b>
+                                    TICKETS WITH REDBUS!
+                                </h2>
+                                <div class="AboutUs__LobSection">
+                                    <div class="AboutUs__LobContainer">
+                                        <div class="AboutUs__BusinessUnit">
+                                            <picture>
+                                                <img loading="lazy"
+                                                    src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/redRail.svg"
+                                                    alt="Online Train Tickets Booking"
+                                                    title="Online Train Tickets Booking" data-retry="0">
+                                            </picture>
+                                            <div class="AboutUs__BusinessText">Train Tickets</div>
+                                        </div>
+                                        <div class="footerBorderSelected"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="AboutUs__InfoSection">
+                                <div>
+                                    <div class="AboutUs__InfoHeading">Book IRCTC Train Tickets on redRail simple &
+                                        superfast booking process with no service fee + no payment gateway charge.</div>
+                                </div>
+                                <div>
+                                    <div class="AboutUs_InfoPoints">
+                                        <img loading="lazy"
+                                            src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railAuthorized.png"
+                                            alt="Authorised IRCTC Partner" title="Authorised IRCTC Partner"
+                                            class="AboutUs__InfoImage">
+                                        <div class="AboutUs__Info">Authorised IRCTC Partner</div>
+                                    </div>
+                                    <div class="AboutUs_InfoPoints">
+                                        <img loading="lazy"
+                                            src="https://s2.rdbuz.com/web/images/homeV2/AboutUs/railHasslefree.svg"
+                                            alt="Instant refunds on UPI payments"
+                                            title="Instant refunds on UPI payments" class="AboutUs__InfoImage">
+                                        <div class="AboutUs__Info">Instant refunds on UPI payments</div>
+                                    </div>
+                                    <div class="AboutUs_InfoPoints">
+                                        <img loading="lazy"
+                                            src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/railrefunds.svg"
+                                            alt="Hassle- free customer support" title="Hassle- free customer support"
+                                            class="AboutUs__InfoImage">
+                                        <div class="AboutUs__Info">Hassle- free customer support</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.redbus.in/railways" class="AboutUs__BookOption">Book Train
+                                    Tickets<i class="fa-sharp fa-solid aboutUsIcon fa-arrow-right-long"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="AboutUs__AboutUsRightSection">
+                            <picture><img loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/railPop.png"
+                                    alt="Online Train Tickets Booking" title="Online Train Tickets Booking"
+                                    data-retry="0"></picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="partialList">
+                    <div class="AppInstallSection__AppInstallContainer">
+                        <div class="AppInstallSection__Heading">ENJOY THE APP!</div>
+                        <div class="AppInstallSection__AppInstallWrapper">
+                            <div class="AppInstallSection__AppInfoSection">
+                                <div class="AppInstallSection__KeyFeatureSection">
+                                    <div class="AppInstallSection__KeyPointsContainer">
+                                        <img loading="lazy"
+                                            src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" alt="tick"
+                                            class="AppInstallSection__TickImg">
+
+                                        <text class="AppInstallSection__KeyPoints">Quick access</text>
+                                    </div>
+                                    <div class="AppInstallSection__KeyPointsContainer"><img loading="lazy"
+                                            src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" alt="tick"
+                                            class="AppInstallSection__TickImg">
+                                        <text class="AppInstallSection__KeyPoints">Superior live tracking</text>
+                                    </div>
+
+                                </div>
+                                <div class="AppInstallSection__RateSection">
+                                    <div class="AppInstallSection__RatingSection">
+                                        <text class="AppInstallSection__RatingText">
+                                            <label>4.6</label>
+                                            <i class="fa-solid fa-star fa-2xs AppInstallSection__StarIcon"></i>
+                                        </text>
+                                        <text class="AppInstallSection__DownloadsText">50M+ downloads</text>
+                                        <div class="AppInstallSection__StoreName">Play Store</div>
+                                    </div>
+                                    <div class="AppInstallSection__Line"></div>
+                                    <div class="AppInstallSection__RatingSection">
+                                        <text class="AppInstallSection__RatingText">
+                                            <label>4.6</label>
+                                            <i class="fa-solid fa-star fa-2xs AppInstallSection__StarIcon"></i>
+                                        </text>
+                                        <text class="AppInstallSection__DownloadsText">50M+ downloads</text>
+                                        <div class="AppInstallSection__StoreName">App Store</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="AppInstallSection__AppInstallRightContainer">
+                                <div class="QrCodeAndPlaystoreSection__QrSectionWrapper">
+                                    <div class="QrCodeAndPlaystoreSection__QrContainer">
+                                        <text class="QrCodeAndPlaystoreSection__DownLoadText">Scan to download</text>
+                                        <img loading="lazy" src="https://s1.rdbuz.com/web/images/homeV2/qrCode.svg"
+                                            alt="QrCodeImg" class="QrCodeAndPlaystoreSection__QrImg">
+                                    </div>
+                                    <div class="QrCodeAndPlaystoreSection__DownloadLinkSection">
+                                        <text class="QrCodeAndPlaystoreSection__DownLoadText">Download the App on</text>
+                                        <div class="QrCodeAndPlaystoreSection__DownloadImgConatiner">
+                                            <img loading="lazy"
+                                                src="https://s2.rdbuz.com/web/images/homeV2/appinstall/playStore.svg"
+                                                alt="playstore" height="42px" width="145px"
+                                                class="QrCodeAndPlaystoreSection__PlayStoreImg"><img loading="lazy"
+                                                src="https://s3.rdbuz.com/web/images/homeV2/appinstall/appStore.svg"
+                                                alt="AppStoreImg" height="46px" width="147px"
+                                                class="QrCodeAndPlaystoreSection__PlayStoreImg">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="partialList">
+                    <div class="partialContainer">
+                        <picture>
+                            <img src="https://s3.rdbuz.com/Images/webplatform/india/primo/primoHome.svg" alt="primoImg"
+                                title="image" data-retry="0"
+                                style="width: 50rem; height: 34.5rem; border-radius: 2.5rem 0px 0px 2.5rem;">
+                        </picture>
+
+                        <div class="partialsubContainer">
+                            <div class="box">
+                                <div class="partial_img">
+                                    <img src="https://img.icons8.com/?size=100&id=86204&format=png&color=FFFFFF" alt="">
+                                </div>
+                                <div class="partial_text">
+                                    <div class="partial_time">On Time</div>
+                                    <div class="partial_sub">Punctual arrivals on 95% trips</div>
+                                </div>
+
+                            </div>
+                            <div class="box">
+                                <div class="partial_img">
+                                    <img src="https://img.icons8.com/?size=100&id=dAp6lCUtNNOb&format=png&color=FFFFFF"
+                                        alt="">
+                                </div>
+                                <div class="partial_text">
+                                    <div class="partial_time">Friendly Staff</div>
+                                    <div class="partial_sub">Always ready to help</div>
+                                </div>
+
+                            </div>
+                            <div class="box">
+                                <div class="partial_img">
+                                    <img src="https://img.icons8.com/?size=100&id=16101&format=png&color=FFFFFF" alt="">
+                                </div>
+                                <div class="partial_text">
+                                    <div class="partial_time">Top Rated</div>
+                                    <div class="partial_sub">Buses with 4+ star rating</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="lastPartialList"></div>
+            </div>
+            <div class="globalPresenceHomeV2">
+                <div class="GlobalPresence__GlobalPresenceSection">
+                    <h2 class="GlobalPresence__GlobalPresenceTitle">Global Presence</h2>
+                    <div class="GlobalPresence__GlobalPresenceWrap">
+                        <div class="GlobalPresence__GeoDataWrap">
+                            <picture>
+                                <img class="geo-image" loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Colombia.svg"
+                                    alt="redBus Colombia" title="redBus Colombia" data-retry="0">
+
+                            </picture>
+                            <div class="GlobalPresence__GeoTitle">Colombia</div>
+                        </div>
+                        <div class="GlobalPresence__GeoDataWrap">
+                            <picture>
+                                <img class="geo-image" loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/India.svg"
+                                    alt="redBus India" title="redBus India" data-retry="0">
+
+                            </picture>
+                            <div class="GlobalPresence__GeoTitle">India</div>
+                        </div>
+                        <div class="GlobalPresence__GeoDataWrap">
+                            <picture>
+                                <img class="geo-image" loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Indonesia.svg"
+                                    alt="redBus Indonesia" title="redBus Indonesia" data-retry="0">
+
+                            </picture>
+                            <div class="GlobalPresence__GeoTitle">Indonesia</div>
+                        </div>
+                        <div class="GlobalPresence__GeoDataWrap">
+                            <picture>
+                                <img class="geo-image" loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Malaysia.svg"
+                                    alt="redBus Malaysia" title="redBus Malaysia" data-retry="0">
+                            </picture>
+                            <div class="GlobalPresence__GeoTitle">Malaysia</div>
+                        </div>
+                        <div class="GlobalPresence__GeoDataWrap">
+                            <picture>
+                                <img class="geo-image" loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Peru.svg"
+                                    alt="redBus Peru" title="redBus Peru" data-retry="0">
+                            </picture>
+                            <div class="GlobalPresence__GeoTitle">Peru</div>
+                        </div>
+                        <div class="GlobalPresence__GeoDataWrap">
+                            <picture>
+                                <img class="geo-image" loading="lazy"
+                                    src="https://s3.rdbuz.com/web/images/homeV2/LATAM/GlobalPresence/Singapore.svg"
+                                    alt="redBus Singapore" title="redBus Singapore" data-retry="0">
+                            </picture>
+                            <div class="GlobalPresence__GeoTitle">Singapore</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seoPartialListContainer">
+                <div class="seoPartial">
+                    <div class="AboutSection">
+                        <section>
+                            <h2 class="aboutHeading">BOOK BUS TICKETS ONLINE</h2>
+                            <div class="content">
+                                <p>redBus is India's largest brand for online bus ticket booking and offers an
+                                    easy-to-use online bus ticket booking service and train; with over 36 million
+                                    satisfied customers, 3500+ bus operators to choose from, and plenty of offers on bus
+                                    ticket booking, redBus makes road journeys super convenient for travellers. A
+                                    leading platform for booking bus tickets, redBus has been the leader in online bus
+                                    booking over the past 17 years across thousands of cities and lakhs of routes in
+                                    India.</p>
+                                <p>Booking a bus ticket online on the redBus app or website is very simple. You can
+                                    download the redBus app or visit redbus.in and enter your source, destination &amp;
+                                    travel date to check the top-rated bus services available. You can then compare bus
+                                    prices, user ratings &amp; amenities, select your preferred seat, boarding &amp;
+                                    dropping points and pay using multiple payment options like UPI, debit or credit
+                                    card, net banking and more. With redBus, get assured safe &amp; secure payment
+                                    methods and guaranteed travel with the best seat and bus operator of your choice.
+                                    <span>...</span>
+                                    <span id="more" class="viewText"> Read more</span>
+                                </p>
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="seoPartial">
+                    <section class="SEO_Partial_Container">
+                        <div>
+                            <h2 class="SEO_heading">Bus Booking redDeals on redBus </h2>
+                        </div>
+                        <div class="SEO_Body">
+                            <p>Don't miss out on these incredible offers, book your bus tickets now and travel with
+                                convenience and affordability. Hurry, grab the best bus booking deals before they're
+                                gone!</p>
+                        </div>
+                        <div class="redDealsOffer_container">
+                            <img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo"
+                                title="redBus">
+                            <div class="redDealOffer_content">
+                                <p class="redDealsOffer_subtext">
+                                    Unlock Unbeatable Exclusive
+                                    redDeals!
+                                    <span>20% OFF</span>
+                                </p>
+                                <p class="redDealsOffer_subtext_values">
+                                    <span class="redDealsOffer_value">3125</span>
+                                    Deals
+                                    <span class="value_seperator"></span>
+                                    <span class="redDealsOffer_value">1378</span>
+                                    Bus Operators
+                                    <span class="value_seperator"></span>
+                                    <span class="redDealsOffer_value">151594</span>
+                                    Routes
+                                </p>
+                            </div>
+                            <button class="scrollTopButton">Book now</button>
+                        </div>
+                    </section>
+                </div>
+                <div class="lastPartial">
+                    <section class="faqContainer">
+                        <h2 class="faqHeading">FAQs related to Bus Tickets Booking</h2>
+                        <div>
+                            <div class="faqHeadSection">
+                                <div class="faqHeadTiles Active">
+                                    <div class="faqHeadText">General</div>
+                                    <div class="faqBotomBorder"></div>
+                                </div>
+                                <div class="faqHeadTiles">
+                                    <div class="faqHeadText">Ticket-related</div>
+                                    <div class="faqBotomBorder"></div>
+                                </div>
+                                <div class="faqHeadTiles">
+                                    <div class="faqHeadText">Payment</div>
+                                    <div class="faqBotomBorder"></div>
+                                </div>
+                                <div class="faqHeadTiles">
+                                    <div class="faqHeadText">Cancellation & Refund</div>
+                                    <div class="faqBotomBorder"></div>
+                                </div>
+                                <div class="faqHeadTiles">
+                                    <div class="faqHeadText">Insurance</div>
+                                    <div class="faqBotomBorder"></div>
+                                </div>
+                            </div>
+                            <div class="faqQnaContainer">
+                                <div class="faqQnaSection">
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> Can I track the location of my booked bus online? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> What are the advantages of purchasing a bus ticket with redBus?
+                                            </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> Why book bus tickets online on redBus? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> Do I need to create an account on the redBus site to book my bus
+                                                ticket? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> Does bus booking online cost me more? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> How can I get the discounts on the bus booking? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> What's New in Bus Booking on redBus? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="faqQuestionSection">
+                                        <div class="faqQuestion">
+                                            <span> Can I book a Government bus ticket on redBus? </span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                        <div class="faqAns hide">
+                                            <span>
+                                                <p>Yes, you can track your bus online by using our bus tracking app
+                                                    feature called “Track My Bus”. This feature allows passengers and
+                                                    their families to track the live bus location. You may follow your
+                                                    bus on a map and use the information to plan your trip to the
+                                                    boarding point and to get off at the correct stop. Family and
+                                                    friends may also check the bus position to schedule pick-ups and
+                                                    ensure safety.</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="scrollToTopWrapper">
+                <div class="scrollTopButton">
+                    <img class="scrollArrowImg" src="https://s3.rdbuz.com/web/images/homeV2/scrollArrow.svg"
+                        alt="scrollTop" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <footer id="rh_footer_new">
+            <div class="rb_footer">
+                <ul class="footer_top_seo_content">
+                    <section class="footer_section">
+                        <div class="interLinkContainer">
+                            <div class="interLinkSec">
+                                <h3>Popular Bus Routes</h3>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="seoLinkSection hide">
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-manali" target="_blank">Delhi To
+                                    Manali Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-rishikesh" target="_blank">Delhi To
+                                    Rishikesh Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-shimla" target="_blank">Delhi To
+                                    Shimla Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-nainital" target="_blank">Delhi To
+                                    Nainital Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-katra" target="_blank">Delhi To
+                                    Katra Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-goa" target="_blank">Bangalore
+                                    To Goa Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-hyderabad"
+                                    target="_blank">Bangalore To Hyderabad Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-tirupathi"
+                                    target="_blank">Bangalore To Tirupathi Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-chennai"
+                                    target="_blank">Bangalore To Chennai Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-pondicherry"
+                                    target="_blank">Bangalore To Pondicherry Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-bangalore"
+                                    target="_blank">Hyderabad To Bangalore Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-goa" target="_blank">Hyderabad
+                                    To Goa Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-srisailam"
+                                    target="_blank">Hyderabad To Srisailam Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-vijayawada"
+                                    target="_blank">Hyderabad To Vijayawada Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-tirupathi"
+                                    target="_blank">Hyderabad To Tirupathi Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/pune-to-goa" target="_blank">Pune To Goa
+                                    Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/pune-to-mumbai" target="_blank">Pune To
+                                    Mumbai Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/pune-to-nagpur" target="_blank">Pune To
+                                    Nagpur Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/pune-to-kolhapur-maharashtra"
+                                    target="_blank">Pune To Kolhapur Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/pune-to-nashik" target="_blank">Pune To
+                                    Nashik Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-goa" target="_blank">Mumbai To Goa
+                                    Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-pune" target="_blank">Mumbai To
+                                    Pune Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-shirdi" target="_blank">Mumbai To
+                                    Shirdi Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-mahabaleshwar"
+                                    target="_blank">Mumbai To Mahabaleshwar Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-kolhapur-maharashtra"
+                                    target="_blank">Mumbai To Kolhapur Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-digha" target="_blank">Kolkata To
+                                    Digha Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-siliguri" target="_blank">Kolkata
+                                    To Siliguri Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-puri" target="_blank">Kolkata To
+                                    Puri Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-bakkhali" target="_blank">Kolkata
+                                    To Bakkhali Bus</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-mandarmani"
+                                    target="_blank">Kolkata To Mandarmani Bus</a>
+                                <a href="https://www.redbus.in/bus-tickets/delhi-to-manali" target="_blank"
+                                    class="footer_seo_link footer_link_new">Delhi To Manali Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-rishikesh" target="_blank"
+                                    class="footer_seo_link footer_link_new">Delhi To Rishikesh Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-shimla" target="_blank"
+                                    class="footer_seo_link footer_link_new">Delhi To Shimla Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-nainital" target="_blank"
+                                    class="footer_seo_link footer_link_new">Delhi To Nainital Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/delhi-to-katra" target="_blank"
+                                    class="footer_seo_link footer_link_new">Delhi To Katra Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-goa" target="_blank"
+                                    class="footer_seo_link footer_link_new">Bangalore To Goa Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-hyderabad" target="_blank"
+                                    class="footer_seo_link footer_link_new">Bangalore To Hyderabad Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-tirupathi" target="_blank"
+                                    class="footer_seo_link footer_link_new">Bangalore To Tirupathi Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-chennai" target="_blank"
+                                    class="footer_seo_link footer_link_new">Bangalore To Chennai Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/bangalore-to-pondicherry" target="_blank"
+                                    class="footer_seo_link footer_link_new">Bangalore To Pondicherry Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-bangalore" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hyderabad To Bangalore Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-goa" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hyderabad To Goa Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-srisailam" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hyderabad To Srisailam Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-vijayawada" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hyderabad To Vijayawada Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hyderabad-to-tirupathi" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hyderabad To Tirupathi Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/pune-to-goa" target="_blank"
+                                    class="footer_seo_link footer_link_new">Pune To Goa Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/pune-to-mumbai" target="_blank"
+                                    class="footer_seo_link footer_link_new">Pune To Mumbai Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/pune-to-nagpur" target="_blank"
+                                    class="footer_seo_link footer_link_new">Pune To Nagpur Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/pune-to-kolhapur-maharashtra"
+                                    target="_blank" class="footer_seo_link footer_link_new">Pune To Kolhapur Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/pune-to-nashik" target="_blank"
+                                    class="footer_seo_link footer_link_new">Pune To Nashik Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-goa" target="_blank"
+                                    class="footer_seo_link footer_link_new">Mumbai To Goa Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-pune" target="_blank"
+                                    class="footer_seo_link footer_link_new">Mumbai To Pune Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-shirdi" target="_blank"
+                                    class="footer_seo_link footer_link_new">Mumbai To Shirdi Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-mahabaleshwar" target="_blank"
+                                    class="footer_seo_link footer_link_new">Mumbai To Mahabaleshwar Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/mumbai-to-kolhapur-maharashtra"
+                                    target="_blank" class="footer_seo_link footer_link_new">Mumbai To Kolhapur Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-digha" target="_blank"
+                                    class="footer_seo_link footer_link_new">Kolkata To Digha Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-siliguri" target="_blank"
+                                    class="footer_seo_link footer_link_new">Kolkata To Siliguri Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-puri" target="_blank"
+                                    class="footer_seo_link footer_link_new">Kolkata To Puri Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-bakkhali" target="_blank"
+                                    class="footer_seo_link footer_link_new">Kolkata To Bakkhali Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/kolkata-to-mandarmani" target="_blank"
+                                    class="footer_seo_link footer_link_new">Kolkata To Mandarmani Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chennai-to-bangalore" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chennai To Bangalore Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chennai-to-pondicherry" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chennai To Pondicherry Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chennai-to-coimbatore" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chennai To Coimbatore Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chennai-to-madurai" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chennai To Madurai Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chennai-to-tirupathi" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chennai To Tirupathi Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chandigarh-to-manali" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chandigarh To Manali Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chandigarh-to-shimla" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chandigarh To Shimla Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chandigarh-to-delhi" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chandigarh To Delhi Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chandigarh-to-dehradun" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chandigarh To Dehradun Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/chandigarh-to-amritsar" target="_blank"
+                                    class="footer_seo_link footer_link_new">Chandigarh To Amritsar Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/coimbatore-to-chennai" target="_blank"
+                                    class="footer_seo_link footer_link_new">Coimbatore To Chennai Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/coimbatore-to-bangalore" target="_blank"
+                                    class="footer_seo_link footer_link_new">Coimbatore To Bangalore Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/coimbatore-to-ooty" target="_blank"
+                                    class="footer_seo_link footer_link_new">Coimbatore To Ooty Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/coimbatore-to-tiruchendur" target="_blank"
+                                    class="footer_seo_link footer_link_new">Coimbatore To Tiruchendur Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/coimbatore-to-madurai" target="_blank"
+                                    class="footer_seo_link footer_link_new">Coimbatore To Madurai Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/agra-to-bareilly" target="_blank"
+                                    class="footer_seo_link footer_link_new">Agra to Bareilly Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hisar-to-chandigarh" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hisar to Chandigarh Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/hisar-to-delhi" target="_blank"
+                                    class="footer_seo_link footer_link_new">Hisar to Delhi Bus </a><a
+                                    href="https://www.redbus.in/bus-tickets/lucknow-to-ballia" target="_blank"
+                                    class="footer_seo_link footer_link_new">Lucknow to Ballia Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/lucknow-to-moradabad" target="_blank"
+                                    class="footer_seo_link footer_link_new">Lucknow to Moradabad Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/rajkot-to-dwarka" target="_blank"
+                                    class="footer_seo_link footer_link_new">Rajkot to Dwarka Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/siliguri-to-gangtok" target="_blank"
+                                    class="footer_seo_link footer_link_new">Siliguri to Gangtok Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/ahmedabad-to-goa" target="_blank"
+                                    class="footer_seo_link footer_link_new">Ahmedabad to Goa Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/ahmedabad-to-kanpur" target="_blank"
+                                    class="footer_seo_link footer_link_new">Ahmedabad to Kanpur Bus</a><a
+                                    href="https://www.redbus.in/bus-tickets/akola-to-pune" target="_blank"
+                                    class="footer_seo_link footer_link_new">Akola to Pune Bus</a>
+                            </div>
+                            <div class="horizontal_seperator"></div>
+                        </div>
+                        <div class="interLinkContainer">
+                            <div class="interLinkSec">
+                                <h3>Popular Cities</h3>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="seoLinkSection hide">
+                                <a class="footer_seo_link footer_link_new" href="buses/hyderabad-bus-tickets"
+                                    target="_blank">Hyderabad Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/bangalore-bus-tickets"
+                                    target="_blank">Bangalore Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/chennai-bus-tickets"
+                                    target="_blank">Chennai Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/pune-bus-tickets"
+                                    target="_blank">Pune Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/delhi-bus-tickets"
+                                    target="_blank">Delhi Bus Tickets </a>
+                                <a class="footer_seo_link footer_link_new" href="buses/mumbai-bus-tickets"
+                                    target="_blank">Mumbai Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/kolkata-bus-tickets"
+                                    target="_blank">Kolkata Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/ernakulam-bus-tickets"
+                                    target="_blank">Ernakulam Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/ahmedabad-bus-tickets"
+                                    target="_blank">Ahmedabad Bus Tickets</a>
+                                <a class="footer_seo_link footer_link_new" href="buses/vijayawada-bus-tickets"
+                                    target="_blank">Vijayawada Bus Tickets</a>
+                            </div>
+                            <div class="horizontal_seperator"></div>
+                        </div>
+                        <div class="interLinkContainer">
+                            <div class="interLinkSec">
+                                <h3>Popular Bus Operators</h3>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="seoLinkSection hide">
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/no-1-air-travels" target="_blank">No 1 Air
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/ybm-travels" target="_blank">YBM Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/sri-sms-travels" target="_blank">Sri SMS
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/svkdt-travels" target="_blank">Svkdt Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/rkt-tours-and-travels" target="_blank">RKT Tours
+                                    and Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/royal-cars" target="_blank">Royal Cars</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/rahul-travels" target="_blank">Rahul Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/jbt-travels" target="_blank">JBT Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/raj-express-1" target="_blank">Raj Express</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/vaishali-express" target="_blank">Vaishali
+                                    Express</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/rahul-travels-indore" target="_blank">Rahul
+                                    Travels Indore</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/delhi-tours-and-travels" target="_blank">Delhi
+                                    Tours And Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/ashok-travels-delhi" target="_blank">Ashok
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/greenline" target="_blank">Greenline Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/pawan-travels-balaghat" target="_blank">Pawan
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/ravi-travels" target="_blank">Ravi Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/vrl-travels" target="_blank">VRL Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/dolphin-travel-house" target="_blank">Dolphin
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/ganesh-travels" target="_blank">Ganesh
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/kaveri-kamakshi-travels" target="_blank">Kaveri
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/national-travels-national"
+                                    target="_blank">National Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/bharathi-travels-bharathi"
+                                    target="_blank">Bharathi Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/city-land-travels" target="_blank">City Land
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/citylink-travels" target="_blank">Citylink
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/kkaveri-travels" target="_blank">KKaveri
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/kk-travels" target="_blank">KK Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/mahadev-travels-online" target="_blank">Mahadev
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/maharaja-travels-1" target="_blank">Maharaja
+                                    Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/m-r-travels" target="_blank">M R Travels</a>
+                                <a class="footer_seo_link footer_link_new"
+                                    href="https://www.redbus.in/travels/new-payal-travels" target="_blank">New Payal
+                                    Travels</a>
+                            </div>
+                            <div class="horizontal_seperator"></div>
+                        </div>
+                    </section>
+                </ul>
+                <ul class="footer_links">
+                    <li class="footer_link_section main_footer_item">
+                        <div class="footer_main_logos">
+                            <picture>
+                                <img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg" alt="redBus"
+                                    title="redBus" class="rb_footer_logo">
+                            </picture>
+                        </div>
+                        <span class="footer_text">
+                            redBus is the world's largest online bus ticket booking service trusted by over 25 million
+                            happy customers globally. redBus offers bus ticket booking through its website, iOS and
+                            Android mobile apps for all major routes.
+                        </span>
+                    </li>
+                    <li class="footer_link_section">
+                        <h3 class="footer_link_section_title">About redBus</h3>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/aboutus" target="_blank">
+                            About us
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/Investors"
+                            target="_blank">
+                            Investor Relations
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/contactus"
+                            target="_blank">
+                            Contact us
+                        </a>
+                        <a class="footer_link_section_item " href="https://m.redbus.in/" target="_blank">
+                            Mobile version
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/mobile" target="_blank">
+                            redBus on mobile
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/sitemap.html" target="_blank">
+                            Sitemap
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/offerTerms"
+                            target="_blank">
+                            Offers
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/careers" target="_blank">
+                            Careers
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/values" target="_blank">
+                            Values
+                        </a>
+                    </li>
+                    <li class="footer_link_section">
+                        <h3 class="footer_link_section_title">Info</h3>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/termscondition"
+                            target="_blank">
+                            T&amp;C
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/privacypolicy"
+                            target="_blank">
+                            Privacy policy
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/faq" target="_blank">
+                            FAQ
+                        </a>
+                        <a class="footer_link_section_item " href="https://blog.redbus.in" target="_blank">
+                            Blog
+                        </a>
+                        <a class="footer_link_section_item " href="https://onboardvendor.redbus.in/" target="_blank">
+                            Bus operator registration
+                        </a>
+                        <a class="footer_link_section_item " href="https://in3.seatseller.travel/" target="_blank">
+                            Agent registration
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.acko.com/" target="_blank">
+                            Insurance partner
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/info/useragreement"
+                            target="_blank">
+                            User agreement
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/primo/primo-service"
+                            target="_blank">
+                            Primo Bus
+                        </a>
+                        <a class="footer_link_section_item " href="https://www.redbus.in/bus-timetable" target="_blank">
+                            Bus Timetable
+                        </a>
+                    </li>
+                    <li class="footer_link_section">
+                        <h3 class="footer_link_section_title">Global Sites</h3>
+                        <a class="footer_link_section_item" href="https://www.redbus.in/" target="_blank">
+                            India
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.sg/" target="_blank">
+                            Singapore
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.my/" target="_blank">
+                            Malaysia
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.id/" target="_blank">
+                            Indonesia
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.pe/" target="_blank">
+                            Peru
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.co/" target="_blank">
+                            Colombia
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.com.kh/" target="_blank">
+                            Cambodia
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.redbus.vn/" target="_blank">
+                            Vietnam
+                        </a>
+                    </li>
+                    <li class="footer_link_section">
+                        <h3 class="footer_link_section_title">Our Partners</h3>
+                        <a class="footer_link_section_item" href="https://www.goibibo.com/bus/" target="_blank">
+                            Goibibo Bus
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.goibibo.com/hotels/" target="_blank">
+                            Goibibo Hotels
+                        </a>
+                        <a class="footer_link_section_item" href="https://www.makemytrip.com/hotels/" target="_blank">
+                            Makemytrip Hotels
+                        </a>
+                    </li>
+                </ul>
+                <div class="horizontal_seperator"></div>
+                <div class="copyright_social_section">
+                    <span class="footer_copyright_text">Ⓒ 2024 Redbus India Pvt Ltd. All rights reserved</span>
+                    <div class="social_section">
+                        <a class="social_icon_item" href="https://www.facebook.com/redbus.in/" target="_blank">
+                            <img src="https://st.redbus.in/web/images/layout/social_facebook_new.svg" class="social_img"
+                                alt="redbus_facebook" loading="lazy">
+                        </a>
+                        <a class="social_icon_item" href="https://in.linkedin.com/company/redbus_2/" target="_blank">
+                            <img src="https://st.redbus.in/web/images/layout/social_linkedin_new.svg" class="social_img"
+                                alt="redbus_linkedin" loading="lazy">
+                        </a>
+                        <a class="social_icon_item " href="https://twitter.com/redBus_in/" target="_blank">
+                            <img src="https://st.redbus.in/web/images/layout/social_twitter_new.svg" class="social_img"
+                                alt="redbus_twitter" loading="lazy">
+                        </a>
+                        <a class="social_icon_item " href="https://www.instagram.com/accounts/login/?next=/redbusindia/"
+                            target="_blank">
+                            <img src="https://st.redbus.in/web/images/layout/social_instagram_new.svg"
+                                class="social_img" alt="redbus_instagram" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </section>
+</body>
+
+</html>
